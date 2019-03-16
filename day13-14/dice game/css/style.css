@@ -1,0 +1,30 @@
+body{
+  margin: 0;
+  background-color: #393E46;
+  text-align: center;
+}
+h1{
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+h2{
+  font-family: 'Lobster', cursive;
+  font-size: 2rem;
+  color: #4ECCA3;
+}
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  height: 65vh;
+  justify-content: center;
+  align-items: center;
+}
+.flex-items{
+  margin: 2%;
+  border-radius: 5%;
+}
+.foot{
+  color: white;
+}
