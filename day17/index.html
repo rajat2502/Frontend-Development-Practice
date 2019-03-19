@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rock-Paper-Scissor</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Choose Rock,Paper Or Scissor</h1>
+    <div class="">
+      <span class="cscore">Computer = <span  id="computer">0</span></span>
+      <span class="pscore">You = <span id="player">0</span></span>
+    </div>
+    <h3 id="result"></h3>
+    <button type="button" name="button" id="playagain" onclick="window.location.reload();">Play Again</button>
+    <div class="flex-container">
+      <div class="">
+        <img src="images\right\g.gif" alt="" class="gif" id="right">
+      </div>
+      <div class="">
+        <img src="images\left\g.gif" alt="" class="gif" id="left">
+      </div>
+      <br>
+    </div>
+    <div class="buttons">
+      <button type="button" name="button" class="btn" id="paper" onclick="topaper()"> <img src="images\1.png" alt="" class="static">Paper</button>
+      <button type="button" name="button" class="btn" id="rock" onclick="torock()"> <img src="images\2.png" alt="" class="static">Rock</button>
+      <button type="button" name="button" class="btn" id="scissors" onclick="toscissors()"> <img src="images\3.png" alt="" class="static">Scissor</button>
+    </div>
+
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>

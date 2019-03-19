@@ -1,0 +1,80 @@
+body{
+  margin: 0;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+h1{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: orange;
+  font-family: 'Lobster', cursive;
+  font-size: 4rem;
+}
+h3{
+  color: skyblue;
+  font-family: 'Lobster', cursive;
+  font-size: 2rem;
+  margin-top: 0;
+}
+.cscore{
+  margin-right: 15%;
+  color: #DA0463;
+  font-size: 2rem;
+  font-family:  "Arvo", cursive;
+}
+.pscore{
+  margin-left: 15%;
+  color: #DA0463;
+  font-size: 2rem;
+  font-family:  "Arvo", cursive;
+}
+#player{
+  text-align: left;
+
+}
+#computer{
+  text-align: right;
+  margin-right: 1%;
+}
+.flex-container{
+  display: flex;
+  height: 40vh;
+  justify-content: center;
+  align-items: center;
+}
+.gif{
+  width: 60%;
+}
+.btn{
+  margin: 0.8%;
+  margin-top: 0;
+  width: 18vh;
+  height: 18vh;
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  color: #DA0463;
+  border-radius: 10%;
+}
+.static{
+  width: 90%;
+  height: 80%;
+}
+#playagain{
+  display: none;
+  font-family: Courier New;
+  color: #f2e4f2;
+  font-size: 2.0vw;
+  background-color: white;
+  color: black;
+  padding: 4px 20px 8px 20p;
+  text-decoration: none;
+  width: 250px;
+  height: 45px;
+  border: none;
+}
+#playagain:hover{
+  background-color: #3a6885;
+}
