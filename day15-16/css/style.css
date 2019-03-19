@@ -1,0 +1,56 @@
+body{
+  margin: 0;
+  text-align: center;
+  background-color: blue;
+}
+h1{
+  font-family: 'Lobster', cursive;
+  font-size: 4rem;
+  color: orange;
+}
+p{
+  margin: 0;
+  font-size: 1.5rem;
+}
+.flex-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: skyblue;
+  height: 62vh;
+}
+.input{
+  width: 16vw;
+  font-size: 1.3vw;
+}
+#btn{
+  font-size: 1.3vw;
+}
+#btn1{
+  font-size: 1.3vw;
+  display: none;
+}
+#gif{
+  display: none;
+  width: 18%;
+}
+@media only screen and (max-width : 608px)
+{
+  h1{
+    font-size: 3rem;
+  }
+  .input{
+    width: 60vw;
+    font-size: 5vw;
+  }
+  #btn{
+    font-size: 5vw;
+  }
+  #btn1{
+    font-size: 5vw;
+  }
+  #gif{
+    width: 45%;
+  }
+}
