@@ -88,7 +88,7 @@ input:hover{
 .search-results{
   margin-top: 10px;
   margin-left:22vh;
-  margin-right:103vh;
+  width: 42vw;
 }
 
 .search-results a:nth-child(1){
@@ -245,7 +245,7 @@ footer{
 
 footer div{
   margin-left:24vh;
-  margin-right:90vh;
+  width: 42vw;
 }
 
 footer span{
