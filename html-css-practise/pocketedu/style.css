@@ -1,0 +1,87 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.navbar{
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+nav button{
+  position: absolute;
+  right: 20px;
+}
+
+a:hover{
+  text-decoration: none !important;
+}
+
+.main-section{
+  margin-top: 30px;
+  padding-left: 8px;
+  padding-right: 8px; 
+}
+
+.head{
+  width: 92vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.head > form{
+  float: right;
+}
+
+.table{
+  margin-top:50px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 70vh;
+  width: 92vw;
+  border: 1px solid grey;
+}
+
+.company-form{
+  width:40% ;
+  height: 50vh;
+  margin: auto;
+  margin-top: 23vh;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* .company-form input{
+  width: 50%;
+} */
+
+
+@media only screen and (max-width: 600px) {
+  .navbar{
+    padding: 8px 10px;
+  }
+  nav button{
+    position: relative;
+    right: 0;
+  }
+
+  .company-form{
+    text-align: left;
+    width:50% ;
+  }
+}
+
+.success , .error{
+  color: white;
+  padding : 5px;
+  margin: 5px 0 15px 0;
+}
+
+.success{
+  background: green;
+}
+
+.error{
+  background: red;
+}
