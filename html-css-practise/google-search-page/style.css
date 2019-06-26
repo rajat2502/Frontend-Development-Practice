@@ -50,6 +50,31 @@ input:hover{
   right: 20px;
 }
 
+.popup{
+  color: white;
+  border: 1px solid white;
+  background-color: black;
+  font-size: 0.8rem;
+  padding: 4px;
+  position: relative;
+  visibility: hidden;
+}
+
+.popup::before{
+  content: '';
+  position: absolute;
+  bottom: 25px;
+  left: 45%;
+  border-width: 5px;
+  border-style: solid;
+  border-color:  transparent transparent black transparent;
+}
+
+#voice-search{
+  position: absolute;
+  top: 50px;
+  right: 15px;
+}
 
 
 .search img{
