@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Learning Pseudo elements</title>
+</head>
+<style>
+  body{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: blue;
+  }
+
+ h1{
+   letter-spacing: 10px;
+ } 
+
+  .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px;
+    position: relative;
+    background-color: #7CCBF2;
+    line-height: 1.5;
+  }
+
+  .main::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #7CCBF2;
+    transform-origin: top left;
+    transform: skewY(-3deg);
+    z-index: -10;
+  }
+
+  .main::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #7CCBF2;
+    transform-origin: bottom left;
+    transform: skewY(3deg);
+    z-index: -10;
+  }
+
+  div
+</style>
+<body>
+
+  <div class="main">
+    <h1>HEADING</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, quas animi quasi doloribus vel voluptatem cum illum cupiditate eligendi accusantium eaque saepe mollitia unde, similique harum id veniam tempora sint?lorr
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas facilis fuga illum rerum a placeat maiores repellendus laudantium. Modi facere non ipsam provident hic repellendus animi enim eos voluptas placeat.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste quia eligendi iure id tempore qui quam, ex facilis in eveniet pariatur sint voluptates debitis quos sequi doloribus minus expedita Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa in officia ab recusandae distinctio, atque explicabo facere, velit, adipisci perspiciatis nam et! Nulla ipsum neque veritatis sed. Molestias, accusantium.
+    </p>
+  </div>
+  
+</body>
+</html>
