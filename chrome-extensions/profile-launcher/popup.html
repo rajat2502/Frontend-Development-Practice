@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Profile Launcher</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <style>
+  html, body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    min-height: 180px;
+    padding: 0;
+    width: 384px;
+  }
+
+  h1{
+    font-family: 'Menlo', monospace;
+    font-size: 20px;
+    font-weight: 400px;
+    margin: 0;
+    color: #2f5876;
+  }
+
+  a:link, a:visited{
+    color: #000;
+    outline: 0;
+    text-decoration: none;
+  }
+
+  img{
+    width: 50px;
+  }
+
+  .modal-header{
+    align-items: center;
+    border-bottom: 0.5px solid #dadada;
+    padding: 0;
+  }
+
+  .modal-content{
+    text-align: center;
+  }
+
+  .modal-content p{
+    margin: 4px 0;
+  }
+
+  .modal-icons{
+    border-top: 0.5px solid #dadada;
+    height: 50px;
+  }
+
+  .logo{
+    padding: 16px;
+  }
+
+  .logo-icon{
+    /* vertical-align: text-bottom; */
+    margin-right: 12px;
+  }
+
+  .version{
+    color: #444;
+    font-size: 18px;
+  }
+
+  .flex-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 22px;
+  }
+
+  .flex{
+    opacity: 1;
+    transform: opacity 0.2s ease-in-out;
+  }
+
+  .flex:hover{
+    opacity: 0.4;
+  }
+
+  .flex .fab, .flex .far{
+    font-size: 40px;
+    color: #2f5876;
+  }
+  
+  
+  </style>
+</head>
+<body>
+  <div class="modal-header">
+    <h1 class="logo">
+      <img src="images\logo.png" alt="Profile Launcher" class="logo-icon">Profile Launcher <span class="version">(1.0.0)</span>
+    </h1>
+  </div>
+
+  <div class="modal-content">
+    <p>Easily access all profiles</p>
+  </div>
+
+  <div class="modal-icons">
+    <div class="flex-container">
+      <div class="flex">
+        <a href="https://github.com/rajat2502" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+
+      <div class="flex">
+        <a href="https://www.gmail.com/" target="_blank">
+          <i class="far fa-envelope"></i>
+        </a>
+      </div>
+
+      <div class="flex">
+        <a href="https://codepen.io/" target="_blank">
+          <i class="fab fa-codepen"></i>
+        </a>
+      </div>
+
+      <div class="flex">
+        <a href="https://rajat2502.github.io/portfolio/" target="_blank">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </div>
+
+      <div class="flex">
+        <a href="https://rajat2502.github.io/portfolio/" target="_blank">
+          <i class="fab fa-youtube"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="popup.js"></script>
+</body>
+</html>
