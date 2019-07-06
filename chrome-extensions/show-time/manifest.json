@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2, 
+  "name": "Momentum",
+  "description": "show current time",
+  "version": "1.0.0",
+  "browser_action": {
+    "defaukt_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "permissions": ["activeTab"]
+}
