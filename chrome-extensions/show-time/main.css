@@ -7,7 +7,7 @@ body{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: url("images/3.jpg");
+  /* background: url("images/5.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
