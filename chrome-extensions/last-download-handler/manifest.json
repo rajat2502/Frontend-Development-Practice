@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Download-handler",
+  "description": "Access to the last downloaded item",
+  "version": "1.0.0",
+  "permissions": [
+    "downloads"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html"
+  }
+}
